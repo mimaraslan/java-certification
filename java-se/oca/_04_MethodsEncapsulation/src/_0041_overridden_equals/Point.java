@@ -12,14 +12,12 @@ class Point {
 		return "x = " + xPos + ", y = " + yPos;
 	}
 
-	// override the equals method to perform
-	// "deep" comparison of two Point objects
+	// @Override  // DOES NOT COMPILE
 	public boolean equals(Point other) {
 
 		if (other == null)
 			return false;
 
-		// two points are equal only if their x and y positions are equal
 		if ((xPos == other.xPos) && (yPos == other.yPos))
 			return true;
 		else

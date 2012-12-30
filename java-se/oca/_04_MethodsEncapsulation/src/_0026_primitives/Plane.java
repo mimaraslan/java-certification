@@ -1,7 +1,7 @@
 package _0026_primitives;
 
 public class Plane {
-	
+
 	public void fly(int i) {
 		System.out.println("int ");
 	}
