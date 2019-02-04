@@ -30,6 +30,11 @@ class Point {
 		Object p1 = new Point(40, 80);
 		Object p2 = new Point(40, 90);
 		Object p3 = new Point(40, 80);
+		
+		System.out.println("p1: " + p1.toString());
+		System.out.println("p2: " + p2.toString());
+		System.out.println("p3: " + p3.toString());
+		
 		System.out.println("p1 equals p2 is " + p1.equals(p2)); // false
 		System.out.println("p1 equals p3 is " + p1.equals(p3)); // false
 	}
