@@ -7,7 +7,7 @@ public class Bunny {
 	public bunny() { }     // DOES NOT COMPILE - Java is case sensitive
 	public void Bunny() { }
 	
-	public static void main(String[] args) {    
-		
+	public static void main(String[] args) {
+
 	}
 }
