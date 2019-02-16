@@ -1,4 +1,4 @@
-package _0040_equals;
+package _0041_overridden_equals;
 
 class Point {
 	private int xPos, yPos;
@@ -15,10 +15,10 @@ class Point {
 	// override the equals method to perform
 	// "deep" comparison of two Point objects
 	public boolean equals(Point other) {
-		
+
 		if (other == null)
 			return false;
-		
+
 		// two points are equal only if their x and y positions are equal
 		if ((xPos == other.xPos) && (yPos == other.yPos))
 			return true;
@@ -27,11 +27,11 @@ class Point {
 	}
 
 	public static void main(String[] args) {
-		Point p1 = new Point(40, 80);
-		Point p2 = new Point(40, 90);
-		Point p3 = new Point(40, 80);
+		Object p1 = new Point(40, 80);
+		Object p2 = new Point(40, 90);
+		Object p3 = new Point(40, 80);
 		System.out.println("p1 equals p2 is " + p1.equals(p2)); // false
-		System.out.println("p1 equals p3 is " + p1.equals(p3)); // true
+		System.out.println("p1 equals p3 is " + p1.equals(p3)); // false
 	}
 
 }
