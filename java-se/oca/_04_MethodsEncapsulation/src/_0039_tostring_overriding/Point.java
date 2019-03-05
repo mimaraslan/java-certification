@@ -15,11 +15,11 @@ class Point {
 		return "x = " + xPos + ", y = " + yPos;
 	}
 
-	protected String toString() {  // No, it doesn’t work!
+	protected String toString() {  // NO IT DOES NOT WORK!
 		return "x = " + xPos + ", y = " + yPos;
 	}
 
-	public Object toString() { // No, it doesn’t work!
+	public Object toString() { // NO IT DOES NOT WORK!
 		return "x = " + xPos + ", y = " + yPos;
 	}
 	
