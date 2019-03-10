@@ -17,8 +17,16 @@ class Circle extends Shape {
 	}
 
 	public static void main(String[] args) {
+		
 		Circle c1 = new Circle(1, 2, 3); // Circle constructor
-		Circle c2 = (Circle) c1.copy(); // Shape copy
+		
+		/*
+		 This code will give a compiler error of "incompatible types: Shape cannot be converted to
+		 Circle". This is because of the lack of an explicit downcast from Shape to Circle in the assignment
+		 */
+		Circle c2 = c1.copy(); // DOES NOT COMPILE
+		
+		Circle c3 = (Circle) c1.copy(); // Shape copy
 	}
 
 }
