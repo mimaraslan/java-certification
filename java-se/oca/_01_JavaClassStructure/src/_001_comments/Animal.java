@@ -30,9 +30,6 @@ public class Animal {
 // TODO Auto-generated method stub OKEY
 
 
- /*
- *///* ERROR */
- */ 
- 
+ /**///* OKEY */*/ 
  
  }
