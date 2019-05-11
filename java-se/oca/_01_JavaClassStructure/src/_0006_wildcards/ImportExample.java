@@ -1,4 +1,4 @@
-package _006_wildcards;
+package _0006_wildcards;
 
 import java.util.*; // imports java.util.Random among other things
 

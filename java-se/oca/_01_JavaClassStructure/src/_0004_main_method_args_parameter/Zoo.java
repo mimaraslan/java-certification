@@ -1,4 +1,4 @@
-package _004_main_method_args_parameter;
+package _0004_main_method_args_parameter;
 
 public class Zoo {
 

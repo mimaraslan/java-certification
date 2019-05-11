@@ -1,4 +1,4 @@
-package _008_naming_conflicts;
+package _0008_naming_conflicts;
 
 //CASE 1
 //import java.util.*; //OKEY
@@ -11,11 +11,18 @@ package _008_naming_conflicts;
 
 
 //CASE 3
-import java.util.Date; 
+//import java.util.Date; 
 //import java.sql.Date; // ERROR
 
 
-public class Conflicts {
-	Date date;
+//CASE 4
+//import java.util.Date; 
+
+//CASE 5
+// fully qualified class name
+
+public class Conflicts3 {
+	java.util.Date date;
+	java.sql.Date sqlDate; 	
 	// some more code
 }

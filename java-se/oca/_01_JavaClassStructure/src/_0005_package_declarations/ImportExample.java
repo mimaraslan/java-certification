@@ -1,4 +1,4 @@
-package _005_package_declarations;
+package _0005_package_declarations;
 
 import java.util.Random; // import tells us where to find Random
 

@@ -1,4 +1,4 @@
-package _007_redundant_imports;
+package _0007_redundant_imports;
 
 //OKEY v1
 import java.nio.file.*;

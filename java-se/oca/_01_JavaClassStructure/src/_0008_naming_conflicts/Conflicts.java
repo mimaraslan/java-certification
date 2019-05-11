@@ -1,4 +1,4 @@
-package _008_naming_conflicts;
+package _0008_naming_conflicts;
 
 //CASE 1
 //import java.util.*; //OKEY
@@ -11,17 +11,11 @@ package _008_naming_conflicts;
 
 
 //CASE 3
-//import java.util.Date; 
+import java.util.Date; 
 //import java.sql.Date; // ERROR
 
 
-//CASE 4
-import java.util.Date; 
-
-public class Conflicts2 {
+public class Conflicts {
 	Date date;
-	java.sql.Date sqlDate; 
-	//If You Really Need to Use Two Classes with the Same Name
-	
 	// some more code
 }

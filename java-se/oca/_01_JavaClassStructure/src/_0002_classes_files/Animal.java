@@ -1,4 +1,4 @@
-package _002_classes_files;
+package _0002_classes_files;
 
 
 //Java class is defined in its own *.java file.

@@ -1,4 +1,4 @@
-package _003_main_method;
+package _0003_main_method;
 
 public class Zoo {
 
