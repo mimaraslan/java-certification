@@ -40,6 +40,9 @@ local.properties
 .factorypath
 .springBeans
 .sts4-cache
+.classpath
+.project
+.settings
 mvnw.*
 
 ### IntelliJ ###
@@ -71,3 +74,5 @@ nb-configuration.xml
 
 ### OS X ### 
 .DS_Store
+/.DS_Store
+/.metadata/
