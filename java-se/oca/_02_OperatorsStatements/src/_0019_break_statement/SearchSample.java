@@ -4,7 +4,7 @@ public class SearchSample {
 	
 	public static void main(String[] args) {
 	
-		int[][] list = { { 1, 2, 3, 4 }, { 5, 6, 7, 8 }, { 9, 10, 11, 12 } };
+		int[][] list = { { 1, 2, 3, 7 }, { 5, 6, 8, 7 }, { 9, 7, 11, 7 } };
 		int searchValue = 7;
 		int positionX = -1;
 		int positionY = -1;
