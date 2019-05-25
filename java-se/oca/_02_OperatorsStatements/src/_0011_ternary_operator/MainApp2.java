@@ -4,11 +4,10 @@ public class MainApp2 {
 
 	public static void main(String[] args) {
 
-		int y = 10;
-		final int x;
-		
-		System.out.println((y > 5) ? 21 : "Zebra");
-		int animal = (y < 91) ? 9 : "Horse"; // DOES NOT COMPILE
+		int y = 1;
+		int z = 1;
+		final int x = y<10 ? y++ : z++; 
+		System.out.println(y+","+z); // Outputs 2,1
 
 	}
 }

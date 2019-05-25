@@ -1,4 +1,4 @@
-package _0010_braces;
+package _0010_if_else_statement;
 
 public class MainApp {
 
