@@ -1,6 +1,6 @@
 package _0007_array_reference_variables;
 
-class ArrayType {
+public class ArrayType {
 
 	public static void main(String[] args) {
 		

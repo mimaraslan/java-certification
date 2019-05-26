@@ -1,6 +1,6 @@
 package _0003_string_methods;
 
-class MainApp {
+public class MainApp {
 
 	public static void main(String[] args) {
 

@@ -1,6 +1,6 @@
 package _0004_stringbuilder;
 
-class MainApp {
+public class MainApp {
 
 	public static void main(String[] args) {
 

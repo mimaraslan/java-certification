@@ -1,4 +1,4 @@
-package _0005_equality;
+package _0005_equals;
 
 public class Tiger {
 	String name;

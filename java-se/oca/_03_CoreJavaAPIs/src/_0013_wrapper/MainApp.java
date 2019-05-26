@@ -1,6 +1,6 @@
 package _0013_wrapper;
 
-class MainApp {
+public class MainApp {
 
 	/*
 	Primitive type 		Wrapper class

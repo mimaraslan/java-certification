@@ -1,6 +1,6 @@
 package _0006_arrays;
 
-class MainApp {
+public class MainApp {
 
 	public static void main(String[] args) {
 		

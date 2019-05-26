@@ -2,7 +2,7 @@ package _0009_array_search;
 
 import java.util.Arrays;
 
-class MainApp {
+public class MainApp {
 
 	public static void main(String[] args) {
 		

@@ -3,7 +3,7 @@ package _0012_arraylist;
 import java.util.ArrayList; // import just ArrayList
 import java.util.List;
 
-class MainApp {
+public class MainApp {
 
 	public static void main(String[] args) {
 		ArrayList list1 = new ArrayList();
