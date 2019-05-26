@@ -17,8 +17,8 @@ public class MainApp {
 
 		String[] strings = { "10", "9", "11100", "20" , "1300", "50", "510", "110", "99" }; 
 		Arrays.sort(strings);
-		for (String string : strings)
-		System.out.print(string + " ");
+		for (String myString : strings)
+			System.out.print(myString + " ");
 		
 	}
 }
