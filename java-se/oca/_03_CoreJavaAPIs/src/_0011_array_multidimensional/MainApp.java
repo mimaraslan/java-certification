@@ -9,8 +9,15 @@ public class MainApp {
 		int[] vars3[];  // a 2D array
 		int[] vars4 [], vars5 [][]; // a 2D and a 3D array
 		int vars6 [] [] [], vars7 [][][]; // 3D arrays
+		int  [] vars8 [] []; // 3D array
+		int  [] [] vars9 []; // 3D array
+		int  [] [] vars10 , [][][] vars11 ; // first 3D array OK. Second 3D array  DOES NOT COMPILE
+		int  [] vars12 [] [] ,  vars13 [][][]; // first 3D array OK. Second 3D array OK 
+		int  [] vars14 [] [] ,  [] vars15 [][]; // first 3D array OK. Second 3D array OK DOES NOT COMPILE
+		int  [] vars16 [] [] ,  [] [] vars17 []; // first 3D array OK. Second 3D array OK DOES NOT COMPILE
+		int  [] vars18 [] [] ,  [] [] []; vars19  // first 3D array OK. Second 3D array OK DOES NOT COMPILE
 
-		String [][] rectangle = new String[3][2];
+		String [][] rectangle = new String[3][2]; // DOES NOT COMPILE
 		rectangle[0][1] = "set";
 		
 		int[][] differentSize = {{1, 4}, {3}, {9,8,7}};
