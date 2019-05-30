@@ -24,9 +24,6 @@ public class MainApp {
 	public static void main(String[] args) {
 		System.out.println(NUM_SECONDS_PER_HOUR);
 		
-		System.out.println(one);
-		System.out.println(two);
-		System.out.println(three);
-		System.out.println( f);
+
 	}
 }
