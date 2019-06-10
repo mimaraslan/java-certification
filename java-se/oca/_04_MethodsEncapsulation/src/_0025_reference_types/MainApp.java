@@ -1,6 +1,7 @@
 package _0025_reference_types;
 
 public class MainApp {
+	
 	public void fly(String s) {
 		System.out.println("string ");
 	}
