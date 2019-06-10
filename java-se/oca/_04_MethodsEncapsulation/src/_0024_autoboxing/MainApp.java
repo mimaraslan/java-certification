@@ -9,7 +9,7 @@ public class MainApp {
 	public void fly(Integer numMiles) {
 		System.out.println("Integer");
 	}
-
+	
 	public static void main(String[] args) {
 		MainApp obj = new MainApp();
 		obj.fly(3); // int
