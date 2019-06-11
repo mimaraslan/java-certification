@@ -15,6 +15,8 @@ public class TraditionalSearch {
 
 		print(animals, new CheckIfHopper()); // pass class that does check
 		print(animals, a -> a.canHop());
+		
+		print(animals, new CheckIfSwimmer()); // pass class that does check
 		print(animals, a -> a.canSwim());
 		print(animals, a -> ! a.canSwim());
 	}
