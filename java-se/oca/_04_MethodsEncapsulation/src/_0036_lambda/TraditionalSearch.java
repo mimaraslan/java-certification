@@ -14,11 +14,17 @@ public class TraditionalSearch {
 		animals.add(new Animal("turtle", false, true));
 
 		print(animals, new CheckIfHopper()); // pass class that does check
-		print(animals, a -> a.canHop());
-		
+		print(animals,		 a     	  ->		a.canHop()); //Lambda Syntax
+			//	     parameterName   arrow  	body
+
+		System.out.println("-------------------");
 		print(animals, new CheckIfSwimmer()); // pass class that does check
 		print(animals, a -> a.canSwim());
 		print(animals, a -> ! a.canSwim());
+		
+		System.out.println("-------------------");
+		boolean wantWhetherCanHop = true;
+		print(animals, a -> a.canHop() == wantWhetherCanHop);
 	}
 
 	private static void print(List<Animal> animals, CheckTrait checker) {
