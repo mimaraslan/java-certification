@@ -12,6 +12,7 @@ public class Snake extends Reptile {
 	
 	public static void main(String[] args) throws InsufficientDataException {
 		Snake snake = new Snake();
-		snake.getWeight();
+		System.out.println(snake.hasLegs());
+		System.out.println(snake.getWeight());
 	}
 }
