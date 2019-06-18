@@ -1,6 +1,7 @@
 package _0024_extending_abstract_class;
 
 public class Lion extends BigCat {
+	
 	public String getName() {
 		return "Lion";
 	}

@@ -1,5 +1,6 @@
 package _0019_abstract_classes;
 
+// Abstract classes may not be marked as private or final.
 public abstract class Animal {
 	protected int age;
 
