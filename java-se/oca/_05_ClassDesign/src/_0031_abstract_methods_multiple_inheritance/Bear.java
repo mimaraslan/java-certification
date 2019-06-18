@@ -26,5 +26,13 @@ public class Bear implements Herbivore, Omnivore {
 		Herbivore herbivore = new Bear();
 		herbivore.eatPlants(); // Eating plants
 		herbivore.eatPlants(20); // Eating plants: 20
+		
+		System.out.println("------------");
+
+		Omnivore omnivore = new Bear();
+		omnivore.eatMeat(); // Eating meat
+		omnivore.eatPlants(); // Eating plants
+		
+		
 	}
 }
