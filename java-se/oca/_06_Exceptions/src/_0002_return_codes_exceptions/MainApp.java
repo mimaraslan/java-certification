@@ -20,8 +20,7 @@ public class MainApp {
 		
 		String[] names = {"Katerina", "Anna", "", " ", null ,"Sveta", "Lena"};
 		String name = "Lena";
-		
-		
+				
 		mainApp.indexOf(names, name);
 	}	
 }
