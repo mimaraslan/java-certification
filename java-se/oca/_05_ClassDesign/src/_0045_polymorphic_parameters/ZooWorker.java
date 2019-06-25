@@ -6,8 +6,8 @@ public class ZooWorker {
 	}
 	
 	public static void main(String[] args) {
-		feed(new Reptile()); // Feeding reptile Reptile
+		feed(new Reptile());   // Feeding reptile Reptile
 		feed(new Alligator()); // Feeding reptile Alligator
 		feed(new Crocodile()); // Feeding reptile Crocodile
-		}
+	}
 }
