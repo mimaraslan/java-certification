@@ -6,5 +6,4 @@ public abstract class Eel {
 		// Abstract classes cannot be instantiated directly.
 		 Eel eel = new Eel(); // DOES NOT COMPILE
 	}
-	
 }

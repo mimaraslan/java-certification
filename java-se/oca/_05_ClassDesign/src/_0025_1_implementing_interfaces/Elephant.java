@@ -1,4 +1,4 @@
-package _0025_implementing_interfaces;
+package _0025_1_implementing_interfaces;
 
 // private, protected, or final will trigger a compiler error
 interface WalksOnFourLegs {}

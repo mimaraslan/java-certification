@@ -1,7 +1,7 @@
 package _0013_redeclaring_private_methods;
 
 public class BactrianCamel extends Camel {
-	
+
 	private String getNumberOfHumps() {
 		return "Child";
 	}

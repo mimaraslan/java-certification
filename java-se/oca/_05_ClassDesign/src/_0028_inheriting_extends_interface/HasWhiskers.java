@@ -1,4 +1,4 @@
-package _0029_inheriting_interface;
+package _0028_inheriting_extends_interface;
 
 public interface HasWhiskers {
 	public int getNumberOfWhiskers();

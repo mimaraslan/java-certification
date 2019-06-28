@@ -12,7 +12,7 @@ public class BactrianCamel extends Camel {
 //	 return 2;
 //}
 
-	public String getNumberOfHumps() { 
-	 return 2+"";	 
+	public String getNumberOfHumps() {
+		return "2";
 	}
 }

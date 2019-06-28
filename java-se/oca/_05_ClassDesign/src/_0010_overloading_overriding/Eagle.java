@@ -19,5 +19,4 @@ public class Eagle extends Bird {
 		obj.fly();
 		obj.eat(10);		
 	}
-
 }

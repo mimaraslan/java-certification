@@ -22,33 +22,34 @@ public class Shark extends Fish {
 	}
 
 	public void displaySharkDetails1() {
-		System.out.print("Shark with age: " + getAge()); // 50
+		System.out.print("displaySharkDetails1 Shark with age: " + getAge()); // 50
 		System.out.print(" and " + size + " meters long"); // 4
 		System.out.print(" with " + numberOfFins + " fins\n\n"); // 8
 	}
-	
+
 	public void displaySharkDetails2() {
-		 System.out.print("Shark with age: "+this.getAge());
-		 System.out.print(" and "+this.size+" meters long");
-		 System.out.print(" with "+this.numberOfFins+" fins\n\n");
+		System.out.print("displaySharkDetails2 Shark with age: " + this.getAge()); // 50
+		System.out.print(" and " + this.size + " meters long"); // 4
+		System.out.print(" with " + this.numberOfFins + " fins\n\n"); // 8
 	}
-	
+
 	public void displaySharkDetails3() {
-		 System.out.print("Shark with age: "+super.getAge());
-		 System.out.print(" and "+super.size+" meters long");
-		 System.out.print(" with "+this.numberOfFins+" fins\n\n");
+		System.out.print("displaySharkDetails3 Shark with age: " + super.getAge()); // 50
+		System.out.print(" and " + super.size + " meters long"); // 4
+		System.out.print(" with " + this.numberOfFins + " fins\n\n"); // 8
 	}
-	
+
 	public void displaySharkDetails4() {
-		 System.out.print("Shark with age: "+super.getAge());
-		 System.out.print(" and "+super.size+" meters long");
-		// System.out.print(" with "+super.numberOfFins+" fins"); // DOES NOT COMPILE
+		System.out.print("displaySharkDetails4 Shark with age: " + super.getAge()); // 50
+		System.out.print(" and " + super.size + " meters long"); // 4
+	 // System.out.print(" with " + super.numberOfFins + " fins"); // DOES NOT COMPILE
 	}
-	
+
 	public static void main(String[] args) {
 		Shark obj = new Shark(50);
 		obj.displaySharkDetails1();
 		obj.displaySharkDetails2();
 		obj.displaySharkDetails3();
+		obj.displaySharkDetails4();
 	}
 }

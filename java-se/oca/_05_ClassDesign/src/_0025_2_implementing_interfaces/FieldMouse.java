@@ -1,6 +1,8 @@
-package _0025_implementing_interfaces;
+package _0025_2_implementing_interfaces;
 
 public class FieldMouse implements CanBurrow {
+	
+	@Override
 	public int getMaximumDepth() {
 		return MINIMUM_DEPTH;
 	}

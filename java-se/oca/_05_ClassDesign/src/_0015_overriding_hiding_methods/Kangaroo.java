@@ -3,7 +3,7 @@ package _0015_overriding_hiding_methods;
 public class Kangaroo extends Marsupial {
 
 	   public static boolean isBiped() {
-	// public        boolean isBiped() {
+	// public        boolean isBiped() { // DOES NOT COMPILE
 			return true;
 		}
 
