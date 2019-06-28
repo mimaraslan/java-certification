@@ -14,7 +14,8 @@ public interface Carnivore {
 		return 10;
 	}
 
-	public int getRequiredFoodAmount2 () { // DOES NOT COMPILE
+ // public default int getRequiredFoodAmount2 () { 	
+	public 		   int getRequiredFoodAmount2 () { // DOES NOT COMPILE
 		 return 20;
 	}
 }

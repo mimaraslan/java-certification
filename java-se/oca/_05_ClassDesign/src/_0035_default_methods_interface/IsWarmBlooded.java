@@ -25,5 +25,4 @@ public interface IsWarmBlooded {
 	it may choose to ignore the default method, 
 	in which case the default implementation for the method will be used. 
 	*/
-	
 }

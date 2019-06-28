@@ -1,7 +1,7 @@
 package _0036_default_methods_interface;
 
 public interface HasFins {
-	
+
 	public default int getNumberOfFins() {
 		return 4;
 	}

@@ -1,7 +1,7 @@
 package _0044_virtual_methods;
 
 public class Peacock extends Bird {
-	
+
 	public String getName() {
 		return "Peacock";
 	}
