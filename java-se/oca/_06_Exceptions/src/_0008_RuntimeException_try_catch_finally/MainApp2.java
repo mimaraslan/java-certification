@@ -2,11 +2,11 @@ package _0008_RuntimeException_try_catch_finally;
 
 public class MainApp2 {
 
-	 try { // DOES NOT COMPILE
+	 try { 
 		 fall();
 	 } finally {
 		 System.out.println("all better");
-	 } catch (Exception e) {
+	 } catch (Exception e) { // DOES NOT COMPILE
 		 System.out.println("get up");
 	 }
 	

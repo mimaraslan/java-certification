@@ -3,16 +3,22 @@ package _0008_RuntimeException_try_catch_finally;
 public class MainApp3 {
 
 	public static void main(String[] args) {
-		String s = "";
+		String s = "Anna, ";
+		System.out.println(s);
+
 		try {
-			s += "a";
+			s += "Katerina, ";
+			System.out.println(s);
 		} catch (Exception e) {
-			s += "b";
+			s += "Sveta, ";
+			System.out.println(s);
 		} finally {
-			s += "c";
+			s += "Yulya, ";
+			System.out.println(s);
 			System.exit(0); // finally block always runs after the catch block
 		}
-		s += "d";
-		System.out.print(s);
+
+		s += "Lena";
+		System.out.println(s);
 	}
 }
