@@ -28,6 +28,7 @@ public class Bunny2 {
 
 	public static void main(String[] args) {
 		Bunny2 obj = new Bunny2();
+		
 		obj.bad();
 		
 		try {
