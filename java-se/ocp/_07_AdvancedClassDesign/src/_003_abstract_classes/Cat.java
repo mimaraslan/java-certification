@@ -1,10 +1,9 @@
 package _003_abstract_classes;
 
-abstract class Cat {
+public abstract class Cat {
+	
+	abstract void clean1();
 
-}
-
-class Lion extends Cat {
-	void clean() {
+	void clean2() {
 	}
 }
