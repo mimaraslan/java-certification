@@ -2,7 +2,7 @@ package _0016_declaring_initializing_variables;
 
 public class MainApp {
 	public static void main(String[] args) {
-		
+
 		String zooName1; 
 		int numberAnimals1;
 		

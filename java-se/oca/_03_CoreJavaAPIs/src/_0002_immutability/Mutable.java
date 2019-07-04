@@ -6,7 +6,7 @@ public class Mutable {
 	// Setter makes it mutable
 	public void setS(String newS) {
 		s = newS;
-	} 
+	}
 
 	public String getS() {
 		return s;

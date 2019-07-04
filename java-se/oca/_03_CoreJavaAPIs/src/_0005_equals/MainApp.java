@@ -1,9 +1,6 @@
 package _0005_equals;
 
-import java.util.Arrays;
-
 public class MainApp {
-
 	public static void main(String[] args) {
 					
 			String[] myArray1 = { "A", "B", "C" }; 
@@ -40,5 +37,4 @@ public class MainApp {
 			System.out.println(myArray5.equals(myArray6)); // false 
 			System.out.println(myArray7.equals(myArray8)); // false 
 		}
-		
 }

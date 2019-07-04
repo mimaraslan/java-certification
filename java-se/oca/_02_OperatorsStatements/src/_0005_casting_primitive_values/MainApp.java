@@ -22,7 +22,5 @@ public class MainApp {
 		short c = (short)(a * b);
 		System.out.println("c is " + c); 
 
-		
-		
 	}
 }

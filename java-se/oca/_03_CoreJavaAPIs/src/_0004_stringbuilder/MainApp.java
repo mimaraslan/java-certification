@@ -43,6 +43,5 @@ public class MainApp {
 		StringBuilder sb2 = new StringBuilder("animal"); 
 		StringBuilder sb3 = new StringBuilder(10);
  
-
 	}
 }
