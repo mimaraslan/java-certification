@@ -1,5 +1,6 @@
 package _014_enums_constructors_fields_methods;
 
+//  Enums can have instance variables, constructors,and methods. 
 public enum Season {
 	WINTER("winter"), SPRING("spring"), SUMMER("summer"), FALL("fall");
 

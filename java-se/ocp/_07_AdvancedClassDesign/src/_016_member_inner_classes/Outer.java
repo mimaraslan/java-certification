@@ -12,6 +12,7 @@ public class Outer {
 		}
 	}
 
+	// Local inner	classes are classes defned within a method.
 	public void callInner() {
 		Inner inner = new Inner();
 		inner.go();

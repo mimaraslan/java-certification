@@ -20,7 +20,6 @@ public class CaseOfThePrivateInterface {
 		public void shh() {
 			System.out.println("DontTell shh");
 		}
-		
 	}
 
 	public static void main(String[] args) {

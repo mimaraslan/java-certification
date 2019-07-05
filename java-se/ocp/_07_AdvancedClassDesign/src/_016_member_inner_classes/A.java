@@ -19,6 +19,9 @@ public class A {
 	}
 
 	public static void main(String[] args) {
+		
+	// Member inner classes require an instance of the outer class to use. 
+	// They can access private members of that outer class.	
 		A a = new A();
 		A.B b = a.new B();
 		A.B.C c = b.new C();
