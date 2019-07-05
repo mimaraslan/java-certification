@@ -1,8 +1,10 @@
-package _009_functional_interfaces_lambdas;
+package _012_predicate_interface_import;
+
+import java.util.function.Predicate;
 
 public class FindMatchingAnimals {
 	
-	private static void print(Animal animal, CheckTrait trait) {
+	private static void print(Animal animal, Predicate<Animal> trait) {
 		if (trait.test(animal))
 			System.out.println(animal);
 	}
@@ -13,4 +15,5 @@ public class FindMatchingAnimals {
 		print(new Animal("cat", true, false)	 , a  ->           a.canHop()     );
 		print(new Animal("kangaroo", true, false), a  ->           a.canHop()     );
 	}
+	
 }
