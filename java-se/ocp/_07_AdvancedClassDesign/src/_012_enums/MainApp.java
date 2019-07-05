@@ -10,10 +10,12 @@ public class MainApp {
 			System.out.println(season.name() + " " + season.ordinal());
 		}
 		
+		
+	// enum is a type and not an int.	
 	// if ( Season.SUMMER == 2) {} // DOES NOT COMPILE
+		
 		
 		Season s1 = Season.valueOf("SUMMER"); // SUMMER
 		Season s2 = Season.valueOf("summer"); // java.lang.IllegalArgumentException
 	}
 }
-
