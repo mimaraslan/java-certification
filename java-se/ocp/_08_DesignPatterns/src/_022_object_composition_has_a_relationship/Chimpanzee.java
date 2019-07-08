@@ -1,4 +1,4 @@
-package _022_has_a_relationship;
+package _022_object_composition_has_a_relationship;
 
 
 // Unfortunately, chimpanzees do not have tails in the real world,

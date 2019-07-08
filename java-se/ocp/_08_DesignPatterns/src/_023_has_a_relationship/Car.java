@@ -6,7 +6,7 @@ class Car {
 	private int maxSpeed;
 
 	public void carInfo() {
-		System.out.println("Car Color= " + color + " Max Speed= " + maxSpeed);
+		System.out.println("Car Color= " + this.color + " Max Speed= " + this.maxSpeed);
 	}
 
 	public void setColor(String color) {
