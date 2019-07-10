@@ -1,4 +1,4 @@
-package _029_volatile_synchronized_singletons;
+package _029_singleton_synchronized_volatile;
 
 public class VisitorTicketTracker {
 
@@ -17,7 +17,8 @@ public class VisitorTicketTracker {
 
 	// accessed via a single public static method often named getInstance(),
 	// which returns the reference to the singleton object.
-	// synchronized - Synchronization is only needed the frst time that the object is created.
+	// synchronized - Synchronization is only needed the first time that the object is created.
+	// synchronized - Creating Unique Singletons
 	public static VisitorTicketTracker getInstance() {
 		if (instance == null) {
 			synchronized (VisitorTicketTracker.class) {
