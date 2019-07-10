@@ -3,17 +3,24 @@ package _025_singleton_pattern;
 public class HayStorage {
 
 	private int quantity = 0;
-
-	private HayStorage() {
-	}
 	
-	//singleton***************************************				 
+	//---------- singleton object -------------------------------------				 
+	
+	// singletons in Java are created as private static variables 
 	private static final HayStorage instance = new HayStorage();
 
+	// accessed via a single public static method often named getInstance(),
+	// which returns the reference to the singleton object. 
 	public static HayStorage getInstance() {
 		return instance;
 	}
-	//singleton***************************************				 
+	
+    // all of the constructors are declared private in the singleton class
+	// all constructors in a singleton class are marked private
+	private HayStorage() {
+	}
+	
+	//---------- singleton object -------------------------------------				 
 
 	
 	// synchronized - prevent two processes from running the same method at the exact same time.

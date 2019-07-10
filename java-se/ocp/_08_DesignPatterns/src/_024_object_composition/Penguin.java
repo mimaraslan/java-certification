@@ -1,8 +1,9 @@
 package _024_object_composition;
 
 public class Penguin {
-	private final Flippers flippers;
-	private final WebbedFeet webbedFeet;
+	
+	private final Flippers flippers; // object composition 
+	private final WebbedFeet webbedFeet; // object composition
 
 	public Penguin() {
 		this.flippers = new Flippers();

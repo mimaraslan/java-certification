@@ -1,4 +1,4 @@
-package _023_has_a_relationship;
+package _023_object_composition_has_a_relationship;
 
 public class MainApp {
 	public static void main(String[] args) {

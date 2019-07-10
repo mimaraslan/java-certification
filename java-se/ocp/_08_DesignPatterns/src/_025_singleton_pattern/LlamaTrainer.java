@@ -6,7 +6,7 @@ public class LlamaTrainer {
 
 		int amountNeeded = 5 * numberOfLlamas;
 
-		HayStorage hayStorage = HayStorage.getInstance();
+		HayStorage hayStorage = HayStorage.getInstance(); // singleton object
 
 		if (hayStorage.getHayQuantity() < amountNeeded) {
 			hayStorage.addHay(amountNeeded + 10);
