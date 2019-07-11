@@ -9,6 +9,8 @@ import java.util.*;
 4. Do not allow referenced mutable objects to be modified or accessed directly.
 5. Prevent methods from being overridden. 
 */
+
+// class itself is marked final, so the methods cannot be overridden by a subclass
 public final class Animal {
 	
 	// Mark all of the instance variables private and final
@@ -22,7 +24,13 @@ public final class Animal {
 		this.favoriteFoods = new ArrayList<String>(favoriteFoods);
 	}
 
+	// Do not define any setter methods.
 	public List<String> getFavoriteFoods() { // MAKES CLASS MUTABLE!
 		return favoriteFoods;
+	}
+	
+	public static void main(String[] args) {
+		Animal animal = new Animal(null);
+		animal.getFavoriteFoods();
 	}
 }
