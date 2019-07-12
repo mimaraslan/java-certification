@@ -11,8 +11,6 @@ package _006_generic;
  S, U, V, and so forth for multiple generic types
  
  */
-
-
 public class Crate<T> {
 	
 	private T contents;
