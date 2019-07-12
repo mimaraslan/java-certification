@@ -5,7 +5,7 @@ public class Elephant {
 
 		Elephant elephant = new Elephant();
 		Integer numPounds = 15_000;
-		SizeLimitedCrate<Elephant, Integer> c1 = new SizeLimitedCrate<>(elephant, numPounds);
-		System.out.println(c1);
+		SizeLimitedCrate<Elephant, Integer> obj = new SizeLimitedCrate<>(elephant, numPounds);
+		System.out.println(obj);
 	}
 }
