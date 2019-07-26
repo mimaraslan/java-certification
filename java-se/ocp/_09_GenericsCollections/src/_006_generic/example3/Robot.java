@@ -1,4 +1,6 @@
-package _006_generic;
+package _006_generic.example3;
+
+import _006_generic.example2.Crate;
 
 public class Robot {
 	public static void main(String[] args) {
@@ -8,6 +10,7 @@ public class Robot {
 		Robot robot = new Robot();
 		crateForRobot.packCrate(robot);
 		Robot inNewHome = crateForRobot.emptyCrate();
+		System.out.println(inNewHome);
 
 		Robot joeBot = new Robot();
 		Crate<Robot> robotCrate = new Crate<>();
@@ -15,5 +18,6 @@ public class Robot {
 
 		// ship to St. Louis
 		Robot atDestination = robotCrate.emptyCrate();
+		System.out.println(atDestination);
 	}
 }

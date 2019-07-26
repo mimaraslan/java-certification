@@ -1,4 +1,4 @@
-package _006_generic;
+package _006_generic.example2;
 
 /*
  Naming Conventions for Generics

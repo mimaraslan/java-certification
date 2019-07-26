@@ -60,6 +60,5 @@ public class MainApp {
 		list2.remove(1); // throws UnsupportedOperationException
 		System.out.println(list2);
 
-		
 	}
 }

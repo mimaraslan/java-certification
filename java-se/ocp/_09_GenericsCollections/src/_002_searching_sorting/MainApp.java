@@ -19,7 +19,7 @@ public class MainApp {
 		
 		// binarySearch - prints the index at which a match is found
 		System.out.println(Arrays.binarySearch(numbers, 6)); // 7  
-		System.out.println(Arrays.binarySearch(numbers, 3)); // -3
+		System.out.println(Arrays.binarySearch(numbers, 3)); // -3  (Why?)
 		
 		System.out.println("------------------------");
 		
@@ -27,6 +27,6 @@ public class MainApp {
 		Collections.sort(list); 
 		System.out.println(list); // [3, 5, 7, 9]
 		System.out.println(Collections.binarySearch(list, 3)); // 0
-		System.out.println(Collections.binarySearch(list, 2)); // -1
+		System.out.println(Collections.binarySearch(list, 2)); // -1  (Why?)
 	}
 }

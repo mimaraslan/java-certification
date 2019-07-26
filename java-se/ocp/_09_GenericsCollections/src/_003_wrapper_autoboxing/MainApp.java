@@ -15,11 +15,14 @@ public class MainApp {
 		numbers.add(new Integer(3));
 		System.out.println(numbers); // [1, 3]
 
-		numbers.add(new Integer(5));
-		System.out.println(numbers); // [1, 3, 5]
+		numbers.add(new Integer(5)); // index    0  1  2
+		System.out.println(numbers); //         [1, 3, 5]
 		
-		numbers.remove(1);
-		System.out.println(numbers); // [1, 5]
+		// index [0] --> 1
+		// index [1] --> 3
+		// index [2] --> 5
+		numbers.remove(1);  // index [1] --> 3       
+		System.out.println(numbers); //   [1, 5]
 
 		numbers.remove(new Integer(5));
 		System.out.println(numbers); // [1]
@@ -27,6 +30,5 @@ public class MainApp {
 		//  wrapper classes to primitives via unboxing
 		int num = numbers.get(0);
 		System.out.println(num); // 1
-
 	}
 }

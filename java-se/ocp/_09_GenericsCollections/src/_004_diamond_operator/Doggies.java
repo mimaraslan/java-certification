@@ -14,7 +14,8 @@ public class Doggies {
 	public void copyNames() {
 		ArrayList<String> copyOfNames;
 		copyOfNames = new ArrayList<>(); // matches local variable declaration
-		System.out.println("local variable : " + names);
+		System.out.println("local variable copyOfNames: " + copyOfNames);
+		System.out.println("local variable names: " + names);
 	}
 
 	public static void main(String[] args) {

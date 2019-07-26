@@ -1,4 +1,4 @@
-package _006_generic;
+package _006_generic.example2;
 
 public class Zebra {
 	public static void main(String[] args) {
@@ -8,6 +8,6 @@ public class Zebra {
 		Zebra zebra = new Zebra();
 		crateForZebra.packCrate(zebra);
 		Zebra inNewHome = crateForZebra.emptyCrate();
-
+		System.out.println(inNewHome);
 	}
 }
