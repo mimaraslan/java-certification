@@ -14,6 +14,9 @@ public class LegacyDragons {
 	}
 
 	private static void printDragons(List<Dragon> dragons) {
+		
+		System.out.println(dragons);
+		
 		for (Dragon dragon : dragons) { // ClassCastException
 			System.out.println(dragon);
 		}

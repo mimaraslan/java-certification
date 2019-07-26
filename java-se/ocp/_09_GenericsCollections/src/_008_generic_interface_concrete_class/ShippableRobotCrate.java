@@ -4,6 +4,6 @@ public class ShippableRobotCrate implements Shippable<Robot> {
 
 	@Override
 	public void ship(Robot t) {
-		
+		System.out.println("generic_interface: "+ t);
 	}
 }
