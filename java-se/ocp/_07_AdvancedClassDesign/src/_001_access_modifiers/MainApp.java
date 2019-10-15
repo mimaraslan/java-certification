@@ -1,7 +1,7 @@
 package _001_access_modifiers;
 
-import _0001_access_modifiers.cat.BigCat;
-import _0001_access_modifiers.species.Lynx;
+import _001_access_modifiers.cat.BigCat;
+import _001_access_modifiers.species.Lynx;
 
 public class MainApp {
 	public static void main(String[] args) {
