@@ -6,8 +6,8 @@ public class MainApp2 {
 
 		int y = 1;
 		int z = 1;
-		final int x = y<10 ? y++ : z++; 
-		System.out.println(y+","+z); // Outputs 2,1
+		final int x = y < 0 ? y++ : z++;
+		System.out.println(y + " , " + z); // 1 , 2
 
 	}
 }

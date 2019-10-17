@@ -14,14 +14,14 @@ public class MainApp {
 		
 		boolean a = false;
 		boolean b = (a = true); 
-		System.out.println(b); // Outputs true
-		System.out.println("---------"); 
+		System.out.println(b); // true
+		System.out.println("-------------"); 
 
 		File x = new File("myFile.txt");
 		File y = new File("myFile.txt");
 		File z = x;
-		System.out.println(x == y); // Outputs false 
-		System.out.println(x == z); // Outputs true
+		System.out.println(x == y); // false 
+		System.out.println(x == z); // true
 		
 	}
 }

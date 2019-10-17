@@ -8,7 +8,7 @@ public class MainApp {
 		do {
 			x++;
 		} while (false);
-		System.out.println(x); // Outputs 1
+		System.out.println(x); //  1
 	}
 
 }

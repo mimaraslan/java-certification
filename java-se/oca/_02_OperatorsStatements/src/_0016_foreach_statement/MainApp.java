@@ -4,7 +4,7 @@ public class MainApp {
 
 	public static void main(String[] args) {
 
-		// for(datatype instance : collection) { }
+		// for(dataType instance : collection) { }
 
 		final String[] names = new String[3];
 		names[0] = "A";
@@ -32,10 +32,9 @@ public class MainApp {
 		}
 
 		String[] names3 = new String[3];
-		for (int name : names3) { // DOES NOT COMPILE
+		for (int name : names3) { // DOES NOT COMPILE 
 			System.out.print(name + " ");
 		}
 
 	}
-
 }

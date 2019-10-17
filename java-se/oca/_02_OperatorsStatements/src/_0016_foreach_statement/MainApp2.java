@@ -1,5 +1,7 @@
 package _0016_foreach_statement;
 
+import java.util.Iterator;
+
 public class MainApp2 {
 
 	public static void main(String[] args) {
@@ -20,12 +22,28 @@ public class MainApp2 {
 			System.out.print(name + ", ");
 		}
 
+		System.out.println("\n-------------------------------------");
+
+		
+		java.util.List<String> values = new java.util.ArrayList<String>();
+		values.add("D");
+		values.add("E");
+		values.add("F");
+
+		for (String value : values) {
+			System.out.print(value + ", ");
+		}
+		
 		System.out.println("\n-------------");
 
-		java.util.List<String> values = new java.util.ArrayList<String>();
-		values.add("A");
-		values.add("B");
-		values.add("C");
+		
+		for (Iterator<String> i = values.iterator(); i.hasNext();) { // DOES NOT COMPILE
+			String value = i.next();
+			System.out.print(value + ", ");
+		}
+		
+		System.out.println("\n-------------");
+
 
 //		for (int value : values) { // DOES NOT COMPILE
 //			System.out.print(value + ", ");
@@ -38,12 +56,11 @@ public class MainApp2 {
 //			System.out.print(value + ", ");
 //		}
 
-		System.out.println("\n-------------");
 
 		java.util.List<String> names2 = new java.util.ArrayList<String>();
-		names2.add("A");
-		names2.add("B");
-		names2.add("C");
+		names2.add("G");
+		names2.add("H");
+		names2.add("I");
 
 		for (int i = 0; i < names2.size(); i++) {
 			String name = names2.get(i);
@@ -59,6 +76,7 @@ public class MainApp2 {
 		values2[0] = 10;
 		values2[1] = new Integer(5);
 		values2[2] = 15;
+		
 		for (int i = 1; i < values2.length; i++) {
 			if (i > 1) {
 				System.out.print(", ");
@@ -67,5 +85,4 @@ public class MainApp2 {
 		}
 
 	}
-
 }

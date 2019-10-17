@@ -8,9 +8,10 @@ public class MainApp3 {
 	}
 
 	private int getSortOrder(String firstName, final String lastName) {
-		String middleName = "Murat";
-		final String suffix = "MR";
+		
 		int id = 0;
+		final String suffix = "MR";
+		String middleName = "Murat";
 
 		switch (firstName) {  
 			case "Test": 
@@ -34,6 +35,7 @@ public class MainApp3 {
 				id = 15;
 				break;
 			}
+		
 		return id;
 	}
 }

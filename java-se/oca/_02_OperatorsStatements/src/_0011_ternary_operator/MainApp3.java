@@ -6,7 +6,7 @@ public class MainApp3 {
 
 		int y = 10;
 		final int x;
-		
+
 		System.out.println((y > 5) ? 21 : "Zebra");
 		int animal = (y < 91) ? 9 : "Horse"; // DOES NOT COMPILE
 
