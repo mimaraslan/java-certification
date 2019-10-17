@@ -3,12 +3,21 @@ package _0017_identifiers;
 public class MainApp {
 	public static void main(String[] args) {
 		
-		int okidentifier; 
-		int $OK2Identifier; 
-		int _alsoOK1d3ntifi3r; 
-		int __SStillOkbutKnotsonice$;
-	
-		/*
+		int myValue = 1; 
+		int $myValue = 2; 
+		int _myValue = 3; 
+		int _myValue_ = 4; 
+		int _myValue$ = 5;
+		int _myValue$_ = 6;
+
+		System.out.println(myValue);
+		System.out.println($myValue);
+		System.out.println(_myValue);
+		System.out.println(_myValue_);
+		System.out.println(_myValue$);
+		System.out.println(_myValue$_);
+
+	/*
 		
 		3DPointClass // identifiers cannot begin with a number 
 

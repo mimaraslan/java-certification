@@ -20,5 +20,4 @@ public class MainApp {
 		List<? super Exception> myList3 = new ArrayList<Object>();
 
 	}
-
 }

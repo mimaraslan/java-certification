@@ -8,4 +8,9 @@ class Circles {
 		// calling fillColor() with default access within package:
 		circle.fillColor();
 	}
+
+	public static void main(String[] args) {
+		Circles circles = new Circles();
+		circles.getArea();
+	}
 }

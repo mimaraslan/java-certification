@@ -9,7 +9,8 @@ public class MainApp {
 	public void eatIfHungry(boolean hungry) {
 		if (hungry) {
 			int bitesOfCheese = 1;
-		} // bitesOfCheese goes out of scope here
+		} 		
+		// variable in another scope
 		System.out.println(bitesOfCheese);// DOES NOT COMPILE
 	}
 
@@ -21,10 +22,10 @@ public class MainApp {
 				System.out.println(bitesOfCheese);
 			}
 		}
-		System.out.println(teenyBit); // DOES NOT COMPILE
+		// variable in another scope
+		System.out.println(teenyBit); // DOES NOT COMPILE 
 	}
 
-	
 	public void eatMore(boolean hungry, int amountOfFood) {
 		int roomInBelly = 5;
 		if (hungry) {
@@ -37,7 +38,7 @@ public class MainApp {
 		}
 		System.out.println(amountOfFood);
 	}
-	
+
 	public static void main(String[] args) {
 
 	}

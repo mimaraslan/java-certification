@@ -18,6 +18,7 @@ public class MainApp {
 	}
 
 	public void findAnswer(boolean check) { 
+	  //Local variables must be initialized before use. 
 		int answer;
 		int onlyOneBranch;
 		
@@ -33,6 +34,9 @@ public class MainApp {
 	}
 	
 	public static void main(String[] args) {
-	
+		MainApp obj = new MainApp();
+		obj.notValid();
+		obj.valid();
+		obj.findAnswer(true);
 	}
 }
