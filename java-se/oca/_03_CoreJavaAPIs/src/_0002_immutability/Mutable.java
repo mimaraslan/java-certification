@@ -1,6 +1,7 @@
 package _0002_immutability;
 
 public class Mutable {
+	
 	private String s;
 
 	// Setter makes it mutable

@@ -3,11 +3,12 @@ package _0001_concatenation;
 public class MainApp {
 
 	public static void main(String[] args) {
-		String name1 = "Fluffy";
-		System.out.println("name1: "+ name1);
+		
+		String name1 = "Lena";
+		System.out.println("name1: "+ name1); // Lena
 
-		String name2 = new String("Fluffy");	
-		System.out.println("name2: "+ name2);
+		String name2 = new String("Katerina");	
+		System.out.println("name2: "+ name2); // Katerina
 		
 		System.out.println(1 + 2); // 3
 		System.out.println("a" + "b"); // ab
@@ -18,7 +19,6 @@ public class MainApp {
 		String four = "4";
 		System.out.println(1 + 2 + three + four); //64
 
-		
 		String s = "1"; // s currently holds "1"
 		s += "2"; // s currently holds "12"
 		s += 3; // s currently holds "123"
@@ -26,8 +26,9 @@ public class MainApp {
 		   
 		String s1 = "10";
 		String s2 = s1.concat("20"); 
+		System.out.println(s2); //1020
 		s2.concat("30"); 
-		System.out.println(s2);
+		System.out.println(s2); //1020
 		
 	}
 }

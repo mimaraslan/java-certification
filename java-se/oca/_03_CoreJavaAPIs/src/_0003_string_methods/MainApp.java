@@ -62,7 +62,7 @@ public class MainApp {
 		System.out.println("abcabc".replace("a", "A")); // AbcAbc
 
 		System.out.println("\n trim");
-		System.out.println("abc".trim()); // abc
+		System.out.println("  abc  ".trim()); // abc
 		System.out.println("\t a b c\n".trim()); // a b c
 
 	}
