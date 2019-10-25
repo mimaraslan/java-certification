@@ -1,4 +1,4 @@
-package _0040_polymorphism;
+package _0040_1_polymorphism;
 
 public class Lemur extends Primate implements HasTail {
 	
