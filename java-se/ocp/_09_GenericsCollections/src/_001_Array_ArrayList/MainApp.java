@@ -10,11 +10,11 @@ public class MainApp {
 		List<String> list = new ArrayList<>(); // [] empty list
 		System.out.println(list);
 		
-		list.add("Fluffy"); 
-		System.out.println(list); // [Fluffy]
+		list.add("Katerina"); 
+		System.out.println(list); // [Katerina]
 		
-		list.add("Webby"); 
-		System.out.println(list); // [Fluffy, Webby]
+		list.add("Lena"); 
+		System.out.println(list); // [Katerina, Lena]
 		
 		String[] array = new String[list.size()]; // empty array 
 		System.out.println(array); // [Ljava.lang.String;@15db9742
@@ -24,25 +24,25 @@ public class MainApp {
 		System.out.println("-----------------");
 		
 		array[0] = list.get(1); 
-		System.out.println(array[0]); // Webby
+		System.out.println(array[0]); // Lena
 
 		array[1] = list.get(0); 
-		System.out.println(array[1]); // Fluffy
+		System.out.println(array[1]); // Katerina
 
 		for (int i = 0; i < array.length; i++)
-		 System.out.print(array[i] + "-"); // Webby-Fluffy-
+			System.out.print(array[i] + "-"); // Lena-Katerina-
 		
 		System.out.println("\n-----------------");	
 		
-		String[] array2 = { "gerbil", "mouse" }; 
-		System.out.println(array2[0]); // gerbil
+		String[] array2 = { "cat", "mouse" }; 
+		System.out.println(array2[0]); // cat
 		System.out.println(array2[1]); // mouse
 
 		List<String> list2 = Arrays.asList(array2); // returns fixed size list
-		System.out.println(list2); // [gerbil, mouse]
+		System.out.println(list2); // [cat, mouse]
 
 		list2.set(1, "test"); 
-		System.out.println(list2); // [gerbil, test]
+		System.out.println(list2); // [cat, test]
 
 		array2[0] = "new"; 
 		System.out.println(array2[0]); // new

@@ -21,8 +21,8 @@ public class MainApp {
 		// index [0] --> 1
 		// index [1] --> 3
 		// index [2] --> 5
-		numbers.remove(1);  // index [1] --> 3       
-		System.out.println(numbers); //   [1, 5]
+		numbers.remove(1);  // index [1] -->   3       
+		System.out.println(numbers); //   [1,     5]
 
 		numbers.remove(new Integer(5));
 		System.out.println(numbers); // [1]
