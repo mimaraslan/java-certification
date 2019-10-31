@@ -1,4 +1,4 @@
-package _0010_overloading_overriding;
+package _0010_5_overloading_overriding;
 
 public class Bird {
 	
