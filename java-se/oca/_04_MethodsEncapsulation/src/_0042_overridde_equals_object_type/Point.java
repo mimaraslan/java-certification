@@ -12,7 +12,8 @@ class Point {
 		return "x = " + xPos + ", y = " + yPos;
 	}
 
-	// @Override  // DOES NOT COMPILE
+/*
+    @Override  // DOES NOT COMPILE
 	public boolean equals(Point other) {
 
 		if (other == null)
@@ -23,7 +24,22 @@ class Point {
 		else
 			return false;
 	}
-
+*/
+	
+	@Override
+	public boolean equals(Object other) {
+		if (other == null)
+			return false;
+		
+		if (other instanceof Point) {
+			Point anotherPoint = (Point) other;
+			
+			if ((xPos == anotherPoint.xPos) && (yPos == anotherPoint.yPos))
+				return true;
+		}
+		return false;
+	}
+	 
 	public static void main(String[] args) {
 		Object p1 = new Point(40, 80);
 		Object p2 = new Point(40, 90);
@@ -34,7 +50,7 @@ class Point {
 		System.out.println("p3: " + p3.toString());
 		
 		System.out.println("p1 equals p2 is " + p1.equals(p2)); // false
-		System.out.println("p1 equals p3 is " + p1.equals(p3)); // false
+		System.out.println("p1 equals p3 is " + p1.equals(p3)); // true
 	}
 
 }
