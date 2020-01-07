@@ -19,16 +19,22 @@ public class MainApp {
 		names.add(new String("Lolo2")); // OK
 		
 		// java.lang.ClassCastException: java.lang.StringBuilder cannot be cast to java.lang.String
-		names.add(new StringBuilder("Lolo3")); 
+		// names.add(new StringBuilder("Lolo3")); 
 		
 		printNames(names);
 		
+		System.out.println("-------------------");
+
 		List<StringBuilder> names2 = new ArrayList<StringBuilder>();
-		names2.add(new StringBuilder("Lolo4")); 
+		names2.add(new StringBuilder("Lolo4")); // OK
+	 // names2.add("Lolo5"); // DOES NOT COMPILE
+	 // names2.add(new String("Lolo6")); // DOES NOT COMPILE
 		System.out.println(names2); // [Lolo4]
+
+		System.out.println("-------------------");
 		
-		List<StringBuilder> names3 = new ArrayList<StringBuilder>();
-		names3.add(new StringBuilder("Lolo5")); // DOES NOT COMPILE
+		List<StringBuilder> names3 = new ArrayList<>();
+		names3.add(new StringBuilder("Lolo7")); // OK
 		System.out.println(names3);
 
 	}

@@ -3,11 +3,13 @@ package _006_generic.example1;
 public class Elephant {
 	public static void main(String[] args) {
 
-		Crate<Elephant> crateForElephant = new Crate<>();
-		Elephant elephant = new Elephant();
+		Animal<Elephant> animal = new Animal<>();
 		
-		crateForElephant.packCrate(elephant);
-		Elephant inNewHome = crateForElephant.emptyCrate();
-		System.out.println(inNewHome);
+		Elephant elephant1 = new Elephant();
+		animal.oneCreate(elephant1);
+		System.out.println(elephant1);
+
+		Elephant elephant2 = animal.getCreate();
+		System.out.println(elephant2);
 	}
 }

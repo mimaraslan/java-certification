@@ -11,15 +11,15 @@ package _006_generic.example1;
  S, U, V, and so forth for multiple generic types
  
  */
-public class Crate<T> {
+public class Animal<T> {
 	
 	private T contents;
 
-	public T emptyCrate() {
+	public T getCreate() {
 		return contents;
 	}
 
-	public void packCrate(T contents) {
+	public void oneCreate(T contents) {
 		this.contents = contents;
 	}
 }
