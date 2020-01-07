@@ -1,4 +1,4 @@
-package _006_generic.example1;
+package _006_generic.example3;
 
 /*
  Naming Conventions for Generics
@@ -11,11 +11,11 @@ package _006_generic.example1;
  S, U, V, and so forth for multiple generic types
  
  */
-public class Animal<T> {
+public class Create<T> {
 	
 	private T contents;
 
-	public T getCreate() {
+	public T getInformation() {
 		return contents;
 	}
 

@@ -3,11 +3,13 @@ package _006_generic.example2;
 public class Zebra {
 	public static void main(String[] args) {
 
-		Crate<Zebra> crateForZebra = new Crate<>();
+		Create<Zebra> create = new Create<>();
 		
-		Zebra zebra = new Zebra();
-		crateForZebra.packCrate(zebra);
-		Zebra inNewHome = crateForZebra.emptyCrate();
-		System.out.println(inNewHome);
+		Zebra zebra1 = new Zebra();
+		create.oneCreate(zebra1);
+		System.out.println(zebra1);
+			
+		Zebra zebra2 = create.getInformation();
+		System.out.println(zebra2);
 	}
 }

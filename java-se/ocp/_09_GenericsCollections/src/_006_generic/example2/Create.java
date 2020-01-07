@@ -1,4 +1,4 @@
-package _006_generic.example3;
+package _006_generic.example2;
 
 /*
  Naming Conventions for Generics
@@ -11,15 +11,15 @@ package _006_generic.example3;
  S, U, V, and so forth for multiple generic types
  
  */
-public class Crate<T> {
+public class Create<T> {
 	
 	private T contents;
 
-	public T emptyCrate() {
+	public T getInformation() {
 		return contents;
 	}
 
-	public void packCrate(T contents) {
+	public void oneCreate(T contents) {
 		this.contents = contents;
 	}
 }
