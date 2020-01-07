@@ -2,11 +2,11 @@ package _004_diamond_operator;
 
 import java.util.*;
 
-public class Doggies {
+public class MainApp2 {
 
 	List<String> names;
 
-	Doggies() {
+	MainApp2() {
 		names = new ArrayList<>(); // matches instance variable declaration
 		names.add("Katerina");
 		System.out.println("instance variable : " + names); // instance variable : [Katerina]
@@ -20,13 +20,8 @@ public class Doggies {
 	}
 
 	public static void main(String[] args) {
-		Doggies doggies = new Doggies();
-		doggies.copyNames();
-		System.out.println(doggies.names); // [Katerina]
+		MainApp2 obj = new MainApp2();
+		obj.copyNames();
+		System.out.println(obj.names); // [Katerina]
 	}
 }
-
-
-
-
-
