@@ -12,21 +12,21 @@ public class MainApp {
 		
 		for (int i = 0; i < numbers.length; i++)
 		System.out.print(numbers[i]+", ");     
-		// index 0  1  2  3  4  5  6  [7]  8  9
-		// 		 1, 2, 4, 4, 5, 6, 6,  6,  8, 9, 
+		// index 0  1  2  3  4  5  6  7  8  9
+		// 		 1, 2, 4, 4, 5, 6, 6, 6, 8, 9, 
 		
 		System.out.println();
 		
 		// binarySearch - prints the index at which a match is found
-		System.out.println(Arrays.binarySearch(numbers, 6)); // 7  
+		System.out.println(Arrays.binarySearch(numbers, 6)); //  7  
 		System.out.println(Arrays.binarySearch(numbers, 3)); // -3  (Why?)
 		
 		System.out.println("------------------------");
 		
-		List<Integer> list = Arrays.asList(9, 7, 5, 3);
+		List<Integer> list = Arrays.asList(9, 5, 7, 3);
 		Collections.sort(list); 
 		System.out.println(list); // [3, 5, 7, 9]
-		System.out.println(Collections.binarySearch(list, 3)); // 0
+		System.out.println(Collections.binarySearch(list, 3)); //  0
 		System.out.println(Collections.binarySearch(list, 2)); // -1  (Why?)
 	}
 }

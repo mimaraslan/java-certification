@@ -15,14 +15,15 @@ public class MainApp {
 		numbers.add(new Integer(3));
 		System.out.println(numbers); // [1, 3]
 
-		numbers.add(new Integer(5)); // index    0  1  2
+		int i = 5;
+		numbers.add(i); 			 // index    0  1  2
 		System.out.println(numbers); //         [1, 3, 5]
 		
 		// index [0] --> 1
 		// index [1] --> 3
 		// index [2] --> 5
 		numbers.remove(1);  // index [1] -->   3       
-		System.out.println(numbers); //   [1,     5]
+		System.out.println(numbers); //   [1,      5]
 
 		numbers.remove(new Integer(5));
 		System.out.println(numbers); // [1]
