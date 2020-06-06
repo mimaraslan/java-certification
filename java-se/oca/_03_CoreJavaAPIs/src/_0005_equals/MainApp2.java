@@ -1,6 +1,6 @@
 package _0005_equals;
 
-public class MainApp {
+public class MainApp2 {
 	public static void main(String[] args) {
 					
 			String[] myArray1 = { "A", "B", "C" }; 
@@ -12,13 +12,14 @@ public class MainApp {
 			System.out.println(myArray2.toString()); // [Ljava.lang.String;@4d591d15
 			System.out.println(myArray3.toString()); // [Ljava.lang.String;@4d591d15
 			System.out.println(myArray4.toString()); // [Ljava.lang.String;@4d591d15
+			System.out.println("-------------------------------"); 
 
 			System.out.println(myArray1.equals(myArray1)); // true 
 			System.out.println(myArray1.equals(myArray2)); // true 
 			System.out.println(myArray1.equals(myArray3)); // true 
 			System.out.println(myArray1.equals(myArray4)); // true 
 			
-			System.out.println("---------------"); 
+			System.out.println("-------------------------------"); 
 			
 			String[] myArray5 = new String[] { "A", "B", "C" }; 
 			String [] myArray6 = new String[] { "A", "B", "C" };  
@@ -29,6 +30,7 @@ public class MainApp {
 			System.out.println(myArray6.toString()); // [Ljava.lang.String;@4d591d15
 			System.out.println(myArray7.toString()); // [Ljava.lang.String;@4d591d15
 			System.out.println(myArray8.toString()); // [Ljava.lang.String;@4d591d15
+			System.out.println("-------------------------------"); 
 
 			System.out.println(myArray1.equals(myArray5)); // false 
 			System.out.println(myArray1.equals(myArray6)); // false 

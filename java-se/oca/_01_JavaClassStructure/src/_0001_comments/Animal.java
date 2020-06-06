@@ -4,6 +4,7 @@ package _0001_comments;
 /**
 * Javadoc multiple-line comment
 * @author Mimar Aslan
+* https://www.oracle.com/technical-resources/articles/java/javadoc-tool.html
 */
 public class Animal {
  String name;
@@ -11,6 +12,7 @@ public class Animal {
 //comment until end of line
  
  /* Multiple
+  * 
  * line comment
  */
  
