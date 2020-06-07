@@ -1,6 +1,7 @@
 package _0006_wildcards;
 
-import java.util.*; // imports java.util.Random among other things
+//imports java.util.Random among other things
+import java.util.*; 
 
 public class ImportExample {
 	public static void main(String[] args) {

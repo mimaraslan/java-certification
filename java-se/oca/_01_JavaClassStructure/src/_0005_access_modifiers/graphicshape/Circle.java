@@ -2,9 +2,11 @@ package _0005_access_modifiers.graphicshape;
 
 public class Circle extends Shape {
 	
-	private int radius; // private field
+	// private field
+	private int radius; 
 
-	public void area() { // public method
+	// public method
+	public void area() {
 		
 		// access to private field radius inside the class:
 		System.out.println("area: " + 3.14 * radius * radius);

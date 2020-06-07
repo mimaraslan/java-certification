@@ -13,8 +13,4 @@ class Circles {
 		circle.fillColor();
 	}
 
-	public static void main(String[] args) {
-		Circles circles = new Circles();
-		circles.getArea();
-	}
 }
