@@ -1,19 +1,23 @@
 package _0013_order_initialization;
 
 public class Chick {
-	
-	private String name = "MY_FIELD";
+		
+	private String name = "Lena";	
 	{
-		System.out.println("setting field: "+name); 
+		System.err.println("1setting field: "+name); 
 	}
 
+	{
+		System.err.println("2setting field: "+name); 
+	}
+	
 	public Chick() {
-		name = "MY_CONSTRUCTOR";
+		name = "Katerina";
 		System.out.println("setting constructor: "+name); //
 	}
 
 	public static void main(String[] args) {
 		Chick chick = new Chick();
-	 	System.out.println(chick.name);
+	 	System.out.println("main: "+chick.name);
 	}
 }

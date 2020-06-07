@@ -1,6 +1,7 @@
 package _0011_object_fields;
 
 public class Swan {
+	
 	int numberEggs;// instance variable
 
 	public static void main(String[] args) {
